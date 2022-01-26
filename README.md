@@ -1,8 +1,7 @@
 # spring-cicd-demo
-### 스프링 웹 데모 저장소
-Spring Framework Project
-spring-boot settings
 
+## Sample Spring Project
+### Spring Framework
 - Spring Initailizer
     - Maven Project
     - Java Version: 8 (OpenJDK 1.8)
@@ -12,3 +11,16 @@ spring-boot settings
         - Spring Web
         - Thymeleaf
         - Spring Boot DevTools
+
+## Azure DevOps
+- Build Pipeline (CI/CD(Delivery))
+    - Maven Build
+    - Rename War
+    - Packer Build
+        - Ubuntu 18.04
+        - JDK 1.8
+        - Tomcat 8.5
+        - Spring Web Application
+- Release Pipeline(CD(Deployment))
+    - VMSS 배포
+    - BLUE/GREEN 스왑
