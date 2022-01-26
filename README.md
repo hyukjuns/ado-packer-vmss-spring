@@ -1,4 +1,5 @@
-# spring-cicd-demo
+# spring-vmss-cicd-demo
+Azure DevOps를 사용한 Spring Application to Azure VMSS CI/CD 데모
 
 ## Sample Spring Project
 ### Spring Framework
